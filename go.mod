@@ -1,5 +1,7 @@
-module github.com/juan7732/learning-go-ex10
+module github.com/juan7732/learning-go-ex10/v2
 
 go 1.25.1
 
 require golang.org/x/exp v0.0.0-20250911091902-df9299821621 // indirect
+
+retract v2.0.0
